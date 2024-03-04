@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP2</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/accueil.css">
+    <link rel="stylesheet" href="css/forfait.css">
+    <link rel="stylesheet" href="css/inscription.css">
+    <link rel="stylesheet" href="css/vinyls.css">
+    <link rel="stylesheet" href="css/articles.css">
+    <link rel="stylesheet" href="css/propos.css">
+    
+</head>
+<body>
+    <header>
+        <div id="navigation">
+            <div id="note">
+                <img src = "images/noteRose.png" alt="Logo">
+            </div>
+            <input type="checkbox" id="boutonBurger">
+            <label class="bouton" for="boutonBurger">
+                <div class="ligne"></div>
+                <div class="ligne"></div>
+                <div class="ligne"></div>
+            </label>
+        
+            <div id="menu">
+                <nav> 
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#forfait">Forfait</a></li>
+                        <li><a href="#inscription">S'inscrire</a></li>
+                        <li><a href="#vinyls">Vinyles</a></li>
+                        <li><a href="#articles">Article</a></li>
+                        <li><a href="#propos">Propos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="topFixe">
+            <div id="nom">
+                <h2>Groovy</h2>
+            </div>
+            
+            <div id="bouton"> 
+                    <input type="text" placeholder="Rechercher...&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&#128269;" > 
+            </div>
+        </div>
+
+    </header>
+
+    <section> 
+        <div id="accueil">
+            <h1>Tu attendras chaque mois avec<br><span>impatience</span></h1>
+            <div id="image">
+                <img src = "images/accueil_vinyl_800.png" alt="Image d'un vinyl">
+            </div>
+        </div>
+
+        <div id="forfait">
+
+            <div id="elementsPrincipaux">
+
+                <div id="tableau">
+                
+                    <table> 
+                        <colgroup>
+                            <col class="infos"/>
+                            <col class="argent"/>
+                            <col class="or"/>
+                            <col class="diamand"/>
+                        </colgroup>
+                        <thead></thead>
+                        <tbody>
+                            <caption>Nos forfaits</caption>
+                            <tr>
+                                <th scope="col">Prix</th>
+                                <th scope="col">10$</th>
+                                <th scope="col">30$</th>
+                                <th scope="col">60$</th>
+                                
+                            </tr>
+                            <tr>
+                                <th>Nombre de vinyls/mois</th>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <th>Niveau de rareté</th>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <th>Livraison</th>
+                                <td>Avec frais</td>
+                                <td>Gratuite</td>
+                                <td>Gratuite</td>
+                            </tr>
+                            <tr>
+                                <th>Signé par les artistes</th>
+                                <td>non</td>
+                                <td>non</td>
+                                <td>oui</td>
+                            </tr>
+                        </tbody>
+                    </table> 
+
+                </div>
+            </div>
+        </div>
+
+        <div id="inscription">
+            <div id="deviensMembre">
+                <h2>Deviens membre aujourd'hui!</h2>
+                <a class="membre" href="#formulaire">Allons-y!</a>
+            </div>
+            <div id="formulaire">
+                <form action="">
+
+                    <h3>Personnalise ton infolettre!</h3>
+
+                    <fieldset id="gouts">
+                        <label> Quel est ton genre musical préféré?
+                            <select>
+                                <option value="1">Pop</option>
+                                <option value="2">Classique</option>
+                                <option value="3">Rap</option>
+                                <option value="4">Indie</option>
+                            </select>
+                        </label>
+                    </fieldset>
+
+                    <fieldset id="infolettre">
+                        <legend>Que aimerais-tu reçevoir?</legend>
+                        <label> <input type="checkbox"> Suggestions</label>
+                        <label> <input type="checkbox"> Articles</label>
+                        <label> <input type="checkbox"> Rabais et autre</label>
+                    </fieldset>
+
+                    <fieldset id="courriel">
+                        <legend>Recevez nos courriels</legend>
+                        <label>
+                            <input type="email" required>
+                        </label>
+                        <button type="button" id="envoyer">Envoyer</button>
+                    </fieldset>
+
+                </form>
+            </div>
+
+        </div>
+
+        <div id="vinyls">
+            <h2>Des milliers d'albums</h2>
+            <div id="gallery">
+                <div class="rangée">
+                    <img src="./images/beige.png"alt="album vinyl">
+                    <img src="./images/bleu.png"alt="album vinyl">
+                    <img src="./images/cola.png"alt="album vinyl">
+                    
+                </div>
+                <div class="rangée">
+                    <img src="./images/filleBleu.png"alt="album vinyl">
+                    <img src="./images/fleur.png"alt="album vinyl">
+                    <img src="./images/fumé.png"alt="album vinyl">
+
+                </div>
+                <div class="rangée">
+                    <img src="./images/verre.png"alt="album vinyl">
+                    <img src="./images/foulard.png"alt="album vinyl">
+                    <img src="./images/paysage.png"alt="album vinyl">
+
+                </div>
+                
+                
+            </div>
+        </div>
+        <div id="articles">
+            <div id="article1">
+                <figure>
+                    <img src="./images/1fille_vinyle.jpg"alt="Une fille dans un magasin de vinyle">
+                    <figcaption>Venez choisir vos vinyles en magasin!</figcaption>
+                </figure>
+                <div id="text1">
+                    <div id="titre">
+                        <h2>Acheter local à Montréal</h2>
+                        <h3>Un magasin de musique chaleureux sur la rue St-Denis</h3>
+                    </div>                
+                </div>
+            </div>
+            <div id="article2">
+                
+                <div id="text2">
+                    <div id="titre">
+                        <h2>La musique se partage</h2>
+                        <h3>Le magasin offre la possibilité d'écouter la musique sur place</h3>
+                    </div>
+                    <p>Voluptates culpa ex nobis ad? Molestiae provident ullam distinctio ex voluptatibus quos recusandae expedita architecto aliquid. Assumenda illo libero debitis voluptate, consequatur nostrum dignissimos labore.</p>
+                <div id="deuxFilles">
+                    <img src="./images/2filles_vinyle.jpg"alt="Deux filles dans un magasin de vinyle">
+                </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+        <div id="propos">
+  
+            <div id ="infos"> 
+                <li>3800, rue Sherbrooke Est. Collège de Maisonneuve</li>
+                <li>Département de la technique en intégration multimédia</li>
+                <li>Images de Pexels.com</li>
+            </div>
+            <div id="reseaux">
+                <div id="abonne">
+                Abonne-toi!
+                </div>
+                <div id="logos">
+                    <img src="./images/instagram.png"alt="Logo Instagram">
+                    <img src="./images/pinterest.png"alt="Logo Pinterest">
+                    <img src="./images/tiktok.png"alt="Logo Tiktok">
+                </div>
+            </div>
+            
+            <div id="avis">
+            <p>Avis de confidentalité | Privacy Notice</p>
+            </div>
+
+            
+            
+        </div>
+    </footer>
+    
+</body>
+</html>

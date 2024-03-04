@@ -1,0 +1,33 @@
+#propos{
+	background-color: rgb(51,82,103);
+	width:100vw;
+	height:20vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+#propos #logos img{
+    width:50px;
+}
+
+#infos li, #avis p{
+    list-style-type:none;
+    color: beige;
+    line-height: 150%;
+    
+}
+#reseaux{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+#abonne{
+    font-family:'Noto Sans SemiBold', sans-serif;
+    padding-bottom: 10px;
+    font-size:30px;
+    color: lightpink;
+    text-shadow: 1px 3px 7px rgba(255, 247, 212, 0.25);
+}

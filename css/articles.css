@@ -1,0 +1,87 @@
+#articles{
+    width:100vw;
+    height:100vh;
+    background-color: rgb(51,82,103);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#text1, #text2{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height:50vh;
+    align-items: center;
+    line-height:20px;
+    text-align:center;
+
+}
+
+#articles h2{
+    color:lightpink;
+    letter-spacing: 2px;
+    font-family:'Noto Sans SemiBold', sans-serif;
+    line-height:30px;
+}
+
+
+#articles h3, #articles p{
+    padding-top:20px;
+    color:beige;
+}
+
+
+
+
+
+#article1, #article2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:50px;
+    width:50vw;
+    min-width:500px;
+    font-family:sans-serif;
+    color: antiquewhite;
+    
+}
+
+#article1{
+    margin-left:120px;
+}
+
+#article1 img{
+    width:300px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+#article1 figcaption{
+    width:300px;
+    height:40px;
+    text-align: center;
+
+    background-color: antiquewhite;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    margin-top: -25px;
+    color:rgb(51,82,103);
+    font-family:'Noto Sans SemiBold', sans-serif;
+    font-weight: 300;
+    padding:40px;
+}
+
+#article1 #text1{
+    margin-left: 30px;
+}
+
+
+#article2{
+    margin-right:120px;
+}
+
+#deuxFilles img{
+    padding-top:50px;
+    width:400px;
+}

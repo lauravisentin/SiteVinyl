@@ -1,0 +1,184 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	overflow-x:hidden;
+}
+
+h1, h2, h3, th, td, tr, caption, legend, figcaption{
+	cursor:default;
+	text-shadow: 0px 0px 20px rgba(0,0,0,0.13);
+}
+
+header{
+	width:100vw;
+	height:10vh;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color:rgb(51,82,103);
+}
+
+#navigation{
+	position:fixed;
+}
+#topFixe{
+	width:55vw;
+	margin-left: 45svw;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#boutonBurger{
+	display:none;
+}
+
+#note img{
+	margin-top:30px;
+	padding-left: 30px;
+	width: 75px;
+	transform: rotate(-10deg);
+}
+
+
+.ligne{
+	width:18px;
+    height: 3.5px;
+    background-color: hotpink;
+	border-radius: 4px;
+}
+.bouton{
+	position: absolute;
+	left:60px;
+	top:80px;
+    height: 15px;
+    cursor: pointer;
+	display: block;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#boutonBurger:checked+.bouton > .ligne:first-child {
+	transform: translateY(0.5rem);
+}
+
+#menu {
+    display: block;
+    position: absolute;
+    top: 120px;
+	left:-145px;
+
+    width: 145px;
+	height: 225px;
+
+
+	z-index: 100;
+    transition: left 0.4s ease-in-out;
+}
+
+#boutonBurger:checked ~ #menu {
+    display: block;
+    left:10px;
+}
+
+
+#menu ul li{
+	list-style-type: none;
+	display:flex;
+	flex-direction: column;
+	font-size: 25px;
+	margin-left:10px;
+	padding:4px;
+	font-family: 'Retroica', sans-serif;
+	
+}
+#menu li a{
+	text-decoration: none;
+	color:beige;
+	transition: 0.2s ease-in-out;
+}
+#menu li a:hover{
+	text-decoration: none;
+	color:hotpink;
+	border-left:1px solid lightblue;
+	padding-left:10px;
+	padding-bottom: 3px;
+}
+
+#nom h2{
+	position: absolute;
+	top: 20px;
+    font-size: 50px;
+    font-family:'Retropulse', sans-serif;
+    color:wheat;
+    letter-spacing: 4px;
+
+}
+header #bouton{
+	margin-right: 60px;
+	margin-left:30px;
+	margin-top: 20px;
+}
+
+header #bouton input{
+	height:35px;
+	padding-left:14px;
+	
+	border-radius: 20px;
+	border:2px solid lightpink;
+}
+
+header #bouton input[type="text"]{
+	font-family: sans-serif;
+	color:hotpink;
+}
+
+
+#accueil{
+	background-color: rgb(51,82,103);
+	width: 100vw;
+	height: 100vh;
+
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+#accueil h1{
+	font-family:'Retroica', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	color:wheat;
+}
+#accueil h1 span{
+	font-size: 90px;
+	color: lightpink;
+	letter-spacing: 10px;
+	font-family:'Retroica', sans-serif;
+}
+
+#accueil #image{
+	transform-origin: center;
+    transition: all 1.5s;
+}
+
+#accueil #image:hover{ /* État hover*/
+    transform:rotate(1turn);
+	transition-timing-function: ease;
+}
+
+table{
+	border: 1px solid black;
+}
+
+
+
+

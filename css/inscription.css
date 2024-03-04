@@ -1,0 +1,138 @@
+#inscription{
+	background-color: rgb(51,82,103);
+	width:100vw;
+	height:100vh;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	
+}
+#inscription h2{
+	font-family:'Noto Sans SemiBold', sans-serif;
+    letter-spacing: 3px;
+	font-size: 40px;
+	color:wheat;
+	letter-spacing: 3px;
+}
+#formulaire{
+	border:15px solid lightpink;
+	border-radius: 25px;
+	
+	font-size:23px;
+
+	width:50vw;
+}
+#formulaire h3{
+	text-align: center;
+	margin-top: 20px;
+	font-family: 'Retroica', sans-serif;
+	font-size: 30px;
+	color: lightpink;
+	letter-spacing: 3px;
+	
+}
+
+#inscription fieldset{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	border:none;	
+	font-family: sans-serif;
+	font-size: 25px;
+}
+
+#gouts{
+	margin-top:30px;
+}
+
+#gouts, #formulaire legend{
+	font-weight:bold;
+}
+
+#gouts select{
+	border-radius: 10px;
+	font-size: 20px;
+	margin-left:30px;
+	text-align: center;
+	color:hotpink;
+}
+#formulaire label, #formulaire legend{
+	color:beige;
+	padding:20px;
+	
+	
+}
+#formulaire legend{
+	text-align: center;
+	padding-bottom:0;
+}
+#infolettre input[type="checkbox"]{
+	width:20px;
+	background-color: pink;
+}
+#infolettre label{
+	color: pink;
+}
+#infolettre label, #envoyer, .membre{
+	font-family: 'Retroica',sans-serif;
+}
+#envoyer{
+	min-height:3rem;
+	width:9rem;
+	border-radius: 30px;
+	color: rgb(51,82,103);
+	background: linear-gradient(179deg,#ffffff 0%, #ffa1d5 95%);
+}
+
+#courriel, #deviensMembre{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height:200px;
+}
+#courriel legend{
+	color:lightblue;
+}
+#courriel input{
+	padding-left:10px;
+}
+#courriel input[type="email"]{
+	color:pink;
+}
+#deviensMembre{
+	padding-left:40px;
+}
+
+.membre {
+    height: 4rem;
+    width: 11rem; 
+	margin-top: 30px;
+	padding-top:12px;
+
+    border: 2px solid lightblue;
+    border-radius: 50px;
+    color: antiquewhite;
+    
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block; 
+    text-decoration: none; 
+	transition:all 0.1s ease-out;
+}
+.membre:hover{
+	font-size: 27px;
+	padding-top: 16px;
+}
+
+#formulaire{
+    display: none;
+}
+
+#formulaire:target {
+    display: block;
+    border: 10px solid lightblue;
+}
+
